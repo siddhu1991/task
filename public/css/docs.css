@@ -1,0 +1,67 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+
+body {
+    background: #fafafa;
+    font-family: 'Open Sans', sans-serif;
+    font-size:14px;
+    line-height:1.5;
+    color:#000;
+    
+}
+#tolist {
+    display: inline-block;
+    width: 100%;
+    vertical-align: top;
+    padding: 50px 0;
+   
+}
+    #tolist h1 {
+        font-size: 24px;
+        color: #999;
+        font-weight: 700;
+        margin-bottom: 25px;
+    }
+.block_todo {
+    display: inline-block;
+    width: 100%;
+    vertical-align: top;
+    background: #fff;
+    border-radius:3px;
+}
+.header_blok{
+    padding:20px 15px;
+    text-align:left;
+    position:relative;
+    padding-right:50px;
+    font-size:16px;
+    text-transform:uppercase;
+    color:#333;
+    font-weight:600;
+    border-bottom:1px solid #ccc;
+}
+.header_blok button{position:absolute; right:15px; top:50%; transform:translateY(-50%);}
+.header_inner{
+    padding:15px;
+    padding-top:30px;
+}
+.header_inner ul,.header_inner li{
+    list-style:none;
+    padding:0;
+    margin:0;
+}
+.header_inner li{
+  
+    margin-bottom:10px;
+    padding:0 15px;
+    
+}
+.header_inner li .cards{
+    display: inline-block;
+    width: 100%;
+    vertical-align: top;
+    background:#f1f1f1;
+    padding:10px;
+    border-radius:3px;
+}
+.header_inner li .cards h6{color:#333; font-size:18px; font-weight:700; text-transform:capitalize;}
+.header_inner li .cards p{font-size:16px; line-height:1.5; color:#000;}
